@@ -1,9 +1,3 @@
-/*--
-Author: W3layouts
-Author URL: http://w3layouts.com
-License: Creative Commons Attribution 3.0 Unported
-License URL: http://creativecommons.org/licenses/by/3.0/
---*/
 html, body{
     font-size: 12;
 	font-family: 'Open Sans', sans-serif;
@@ -51,11 +45,19 @@ input[type="submit"],ul.address li ul.address-text li a,.agile_about_blog_right_
 	text-decoration:none;
 }
 
-.pad-left{
-	padding-left: 10px;
+.pad-tl{
+	padding: 10px 0px 0px 10px;
+}
+
+.pad-top{
+	padding-top: 10px;
 }
 
 .without-header td:first-child { font-weight: bold }
+
+#swipebox-top-bar {
+    bottom: 15%;
+}
 
 /*-- Tabs --*/
 
@@ -474,7 +476,7 @@ ul.address li ul.address-text li a:hover{
     font-size:1em;
     color: #fff;
     text-transform: capitalize;
-    padding: 1em 0 0;
+    padding: 1.5em 0 0;
 	display: inline-block;
 }
 /*-- contact --*/
