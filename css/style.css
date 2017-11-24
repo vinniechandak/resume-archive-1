@@ -55,8 +55,11 @@ input[type="submit"],ul.address li ul.address-text li a,.agile_about_blog_right_
 
 .without-header td:first-child { font-weight: bold }
 
-#swipebox-top-bar {
-    bottom: 15%;
+.summary-section{
+    border: 1px solid lightgray;
+    border-radius: 5px;
+    line-height: 1.8;
+    padding: 20px;
 }
 
 /*-- Tabs --*/
